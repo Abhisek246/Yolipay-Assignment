@@ -1,0 +1,37 @@
+.nav-cont{
+    position: relative;
+    height: 61px;
+    width: 80vw;
+    border-bottom: 0.2px solid #C8C5C5;
+    background-color: white;
+}
+
+.nav-items{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 30px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav-items img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user p{
+    margin: 0 8px;
+}
+
+@media screen and (max-width: 960px) {
+    .nav-cont{
+        display: none;
+    }
+}

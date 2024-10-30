@@ -1,0 +1,70 @@
+.sidebar-cont{
+    width: 20vw;
+    height: 100vh;
+    background: #DF5532;
+}
+
+.sidebar-logo{
+    width: 236px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+}
+
+.sidebar-logo p{
+    margin-left: 10px;
+}
+
+.sidebar-menu div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+    border-radius: 9px;
+    color: white;
+}
+
+
+.portfolio-div{
+    background: linear-gradient(91.41deg, #FFAD98 0%, #DF5532 100%);
+}
+
+
+@media screen and (max-width: 960px) {
+    .sidebar-logo{
+        display: none;
+    }
+    .sidebar-menu{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding-top: 10px;
+        border-radius: 40px 40px 0 0;
+        box-shadow: 0px -3px 6px 0px #3030301A;
+        background-color: white;
+    }
+    .sidebar-menu div{
+        flex-direction: column;
+        gap: 2px;
+        padding-left: 0;
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+        color: #D6D1D5;
+    }
+    .icon +p{
+        color: #D6D1D5;
+    }
+    .portfolio-icon{
+        color: #DF5532;       
+    }
+    .portfolio-div{
+        background: none;
+        color: #DF5532;  
+    }
+}
